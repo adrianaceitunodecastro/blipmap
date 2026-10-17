@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blipmap</title>
+<meta name="description" content="Blipmap, minimapa y HUD de conducción para Android. Información legal de la aplicación.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1c1e; --muted: #5c6269; --line: #e2e5e9;
+    --accent: #6a3fa0; --box: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161a; --fg: #e6e8eb; --muted: #a0a6ae; --line: #2b2f36;
+      --accent: #b79cdd; --box: #1c1f25;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 64px 16px 72px; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 620px; margin: 0 auto; }
+  h1 { font-size: 2.2rem; line-height: 1.1; margin: 0 0 10px; letter-spacing: -0.02em; }
+  .lead { color: var(--muted); font-size: 1.05rem; margin: 0 0 36px; }
+  nav { display: grid; gap: 10px; margin: 0 0 36px; }
+  nav a {
+    display: block; padding: 15px 18px; border: 1px solid var(--line); border-radius: 10px;
+    background: var(--box); color: var(--fg); text-decoration: none; font-weight: 600;
+  }
+  nav a span { display: block; font-weight: 400; font-size: 0.9rem; color: var(--muted); margin-top: 2px; }
+  nav a:hover { border-color: var(--accent); }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0 18px; }
+  footer { color: var(--muted); font-size: 0.88rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Blipmap</h1>
+<p class="lead">Minimapa y HUD de conducción para Android. El mapa gira con tu rumbo, se aleja cuando vas rápido y te marca el destino, pensado para dejarlo en stand-by en el soporte del coche, la bici o la mesa.</p>
+
+<nav>
+  <a href="privacidad.html">Política de privacidad<span>Qué datos trata la app, con quién se comparten y tus derechos</span></a>
+  <a href="terminos.html">Términos y condiciones de uso<span>Condiciones de uso, avisos sobre la conducción y propiedad intelectual</span></a>
+</nav>
+
+<p>Contacto: <a href="mailto:adrianaceitunodecastro@gmail.com">adrianaceitunodecastro@gmail.com</a></p>
+
+<hr>
+<footer>
+  <p>Mapa © colaboradores de OpenStreetMap, bajo licencia ODbL · Teselas: OpenFreeMap / OpenMapTiles.<br>
+  Blipmap es un proyecto independiente de aficionado, sin relación con Rockstar Games ni con ninguna otra compañía de videojuegos.</p>
+</footer>
+
+</main>
+</body>
+</html>

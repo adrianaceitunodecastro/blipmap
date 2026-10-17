@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Blipmap</title>
+<meta name="description" content="Política de privacidad de la aplicación Blipmap para Android.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1c1e; --muted: #5c6269; --line: #e2e5e9;
+    --accent: #6a3fa0; --box: #f6f7f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161a; --fg: #e6e8eb; --muted: #a0a6ae; --line: #2b2f36;
+      --accent: #b79cdd; --box: #1c1f25;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 16px 72px; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; margin: 2.4em 0 0.6em; letter-spacing: -0.01em; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 0 0 28px; }
+  .box { background: var(--box); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; margin: 24px 0; }
+  .box h2 { margin-top: 0; font-size: 1.05rem; }
+  .box ul { margin: 0; padding-left: 20px; }
+  .box li + li { margin-top: 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0 6px; font-size: 0.93rem; }
+  th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; color: var(--muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  code { background: var(--box); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 0.86em; }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 22px; }
+  li + li { margin-top: 4px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0 20px; }
+  footer { color: var(--muted); font-size: 0.88rem; }
+  .wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de privacidad de Blipmap</h1>
+<p class="meta">Última actualización: 17 de octubre de 2026 · Se aplica a la aplicación <strong>Blipmap</strong> para Android (<code>com.blipmap.radar</code>), versión 1.1 y posteriores.</p>
+
+<div class="box">
+  <h2>En resumen</h2>
+  <ul>
+    <li>Blipmap <strong>no tiene servidores propios</strong>, ni cuentas de usuario, ni publicidad, ni analítica, ni herramientas de seguimiento.</li>
+    <li>Tu ubicación se usa <strong>dentro del móvil</strong> para dibujar el radar. El desarrollador no la recibe ni tiene forma de verla.</li>
+    <li>Para que haya mapa, búsqueda de direcciones y rutas, el móvil consulta <strong>servicios públicos de mapas basados en OpenStreetMap</strong>. Esas consultas llevan las coordenadas necesarias y se responden en el momento, sin crear ninguna cuenta ni perfil.</li>
+    <li>Tus ajustes y el último destino se guardan <strong>solo en tu móvil</strong> y desaparecen al desinstalar la app.</li>
+  </ul>
+</div>
+
+<h2>1. Responsable del tratamiento</h2>
+<p>
+  <strong>Adrián Aceituno de Castro</strong> — desarrollador particular, España.<br>
+  Contacto para privacidad: <a href="mailto:adrianaceitunodecastro@gmail.com">adrianaceitunodecastro@gmail.com</a>
+</p>
+<p>Para cualquier consulta o para ejercer tus derechos, escribe a esa dirección indicando «Blipmap» en el asunto.</p>
+
+<h2>2. Qué datos trata la app, para qué y con qué base jurídica</h2>
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Dato</th><th>Para qué</th><th>Base jurídica</th><th>¿Sale del móvil?</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ubicación precisa (GPS)</td>
+      <td>Centrar y girar el radar, calcular la velocidad y la distancia al destino, trazar la ruta y mostrar la calle y el barrio</td>
+      <td>Tu consentimiento, otorgado al conceder el permiso de ubicación y revocable en cualquier momento</td>
+      <td>Sí, hacia los servicios de mapas del apartado 4, únicamente para responder a cada consulta</td>
+    </tr>
+    <tr>
+      <td>Rumbo (brújula y sensores de movimiento)</td>
+      <td>Orientar el mapa hacia donde miras cuando vas despacio o estás parado</td>
+      <td>Ejecución de la funcionalidad que has solicitado</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Nivel y estado de carga de la batería</td>
+      <td>Dibujar la barra de vida del HUD</td>
+      <td>Ejecución de la funcionalidad que has solicitado</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Texto que escribes al buscar una dirección</td>
+      <td>Encontrar el sitio y fijarlo como destino</td>
+      <td>Ejecución de la búsqueda que has solicitado</td>
+      <td>Sí, al servicio de búsqueda, en el momento de buscar</td>
+    </tr>
+    <tr>
+      <td>Dirección IP de tu conexión</td>
+      <td>No la usa la app: es inherente a cualquier petición de internet y la reciben los servicios consultados</td>
+      <td>Necesaria técnicamente para la comunicación</td>
+      <td>Sí, la ve el servicio consultado</td>
+    </tr>
+    <tr>
+      <td>Ajustes de la app y último destino guardado</td>
+      <td>Recordar tus preferencias y el destino entre sesiones</td>
+      <td>Ejecución de la funcionalidad que has solicitado</td>
+      <td>No (ver el apartado 6 sobre la copia de seguridad de Android)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Blipmap <strong>no</strong> registra un histórico de tus recorridos, ni guarda las búsquedas que haces, ni asocia nada de lo anterior a tu persona, a tu cuenta de Google ni a un identificador de dispositivo.</p>
+
+<h2>3. Permisos que pide la app</h2>
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Permiso</th><th>Por qué</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ubicación precisa y aproximada</td><td>Es la función de la app: sin ella el radar no puede saber dónde estás</td></tr>
+    <tr><td>Servicio en primer plano de tipo «ubicación»</td><td>Mantener el radar actualizado mientras la pantalla está en stand-by o la app no está en primer plano, con su aviso visible en la barra de notificaciones</td></tr>
+    <tr><td>Notificaciones</td><td>Mostrar ese aviso del servicio en primer plano. Blipmap no envía notificaciones promocionales</td></tr>
+    <tr><td>Internet y estado de la red</td><td>Descargar el mapa, buscar direcciones y calcular rutas</td></tr>
+  </tbody>
+</table>
+</div>
+<p>Puedes retirar el permiso de ubicación en cualquier momento en <em>Ajustes del sistema › Aplicaciones › Blipmap › Permisos</em>. Si lo haces, la app seguirá abriéndose, pero el radar no podrá situarte.</p>
+
+<h2>4. Servicios de terceros a los que el móvil envía consultas</h2>
+<p>Blipmap no dispone de servidores propios: se apoya en servicios públicos de cartografía. Cada consulta incluye solo lo imprescindible para responderla —unas coordenadas o un texto de búsqueda— junto con la dirección IP de tu conexión. Cada servicio aplica su propia política de privacidad:</p>
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Servicio</th><th>Quién lo opera</th><th>Qué recibe</th><th>Cuándo</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Geocodificación del sistema Android</td>
+      <td>El fabricante de tu móvil o, en la mayoría de los casos, Google (Google Play Services), según la <a href="https://policies.google.com/privacy" rel="noopener">política de privacidad de Google</a></td>
+      <td>Las coordenadas, para traducirlas a nombre de calle y barrio</td>
+      <td>Es la vía preferente mientras te mueves</td>
+    </tr>
+    <tr>
+      <td><a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a> / OpenMapTiles</td>
+      <td>Proyecto independiente de código abierto</td>
+      <td>Las coordenadas de las porciones de mapa que se dibujan en pantalla</td>
+      <td>Siempre que haya mapa</td>
+    </tr>
+    <tr>
+      <td><a href="https://nominatim.org/" rel="noopener">Nominatim</a></td>
+      <td>OpenStreetMap Foundation (Reino Unido) · <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" rel="noopener">su política</a></td>
+      <td>El texto que buscas y, solo si la geocodificación del sistema no está disponible o falla, tus coordenadas</td>
+      <td>Al buscar una dirección, y como alternativa para el nombre de la calle</td>
+    </tr>
+    <tr>
+      <td>OSRM (<code>routing.openstreetmap.de</code>)</td>
+      <td>FOSSGIS e.V. (Alemania)</td>
+      <td>El punto de origen y el destino de la ruta</td>
+      <td>Solo al fijar o recalcular un destino</td>
+    </tr>
+    <tr>
+      <td><a href="https://overpass-api.de/" rel="noopener">Overpass API</a></td>
+      <td>FOSSGIS e.V. (Alemania) y Kumi Systems (Austria)</td>
+      <td>Un cuadrado de unos 3 km alrededor de tu posición, para leer los límites de velocidad de las vías</td>
+      <td>Solo si activas <em>Ajustes › Usar el límite de la vía</em>, que viene desactivado</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<p>Ninguno de estos servicios recibe un identificador tuyo por parte de Blipmap, ni datos de pago, ni contactos, ni contenido de tu móvil. El desarrollador no recibe copia de esas consultas ni tiene acceso a los registros de esos servidores.</p>
+
+<h2>5. Qué no hace Blipmap</h2>
+<ul>
+  <li>No requiere registro, cuenta ni correo electrónico.</li>
+  <li>No muestra publicidad ni usa el identificador de publicidad de Android.</li>
+  <li>No incluye analítica, telemetría ni informes de errores de terceros.</li>
+  <li>No rastrea tu actividad en otras apps ni en sitios web.</li>
+  <li>No vende, alquila ni cede datos personales a nadie. No hay nada que vender: no se almacenan.</li>
+  <li>No accede a contactos, fotos, archivos, micrófono, cámara ni llamadas.</li>
+  <li>No contiene compras integradas ni suscripciones.</li>
+</ul>
+
+<h2>6. Conservación y eliminación de los datos</h2>
+<ul>
+  <li><strong>En poder del desarrollador:</strong> nada. No se recibe, almacena ni conserva ningún dato personal tuyo, por lo que no existe plazo de conservación ni copia que suprimir.</li>
+  <li><strong>En tu móvil:</strong> los ajustes, el último destino y una caché local de porciones de mapa, para que el radar siga dibujado cuando falla la cobertura. Todo ello se borra en <em>Ajustes del sistema › Aplicaciones › Blipmap › Almacenamiento › Borrar datos</em>, o desinstalando la app.</li>
+  <li><strong>Copia de seguridad de Android:</strong> si tienes activada la copia de seguridad del sistema, Android puede incluir los ajustes de la app, entre ellos el último destino guardado, en la copia asociada a tu cuenta de Google. Es un mecanismo del sistema operativo, cifrado y gestionado por Google, no de Blipmap; puedes desactivarlo en los ajustes de tu móvil.</li>
+  <li><strong>En los servicios del apartado 4:</strong> se rigen por sus propias políticas. Habitualmente conservan registros técnicos de las peticiones durante un plazo limitado.</li>
+</ul>
+
+<h2>7. Seguridad</h2>
+<p>Todas las conexiones de la app van cifradas por HTTPS. La app no abre puertos ni expone sus componentes internos a otras aplicaciones, y no incorpora bibliotecas de publicidad ni de analítica. Al no existir servidor ni base de datos central, no hay un repositorio de datos personales que pueda verse comprometido.</p>
+
+<h2>8. Transferencias internacionales</h2>
+<p>Los servicios del apartado 4 están operados por entidades de la Unión Europea (FOSSGIS e.V. en Alemania, Kumi Systems en Austria), por la OpenStreetMap Foundation en el Reino Unido —país con decisión de adecuación de la Comisión Europea— o por proyectos independientes que pueden servir las peticiones desde infraestructura situada en otros países. Como esas consultas no incluyen identificadores que permitan atribuirlas a una persona desde la app, el riesgo asociado a dichas transferencias es mínimo. La geocodificación del sistema Android se rige por las condiciones de Google o del fabricante de tu dispositivo.</p>
+
+<h2>9. Menores</h2>
+<p>Blipmap no está dirigida a menores de 14 años ni recoge conscientemente datos de menores de esa edad.</p>
+
+<h2>10. Tus derechos</h2>
+<p>Conforme al Reglamento (UE) 2016/679 y a la Ley Orgánica 3/2018, tienes derecho a solicitar el acceso, la rectificación, la supresión, la limitación del tratamiento, la oposición y la portabilidad de tus datos, así como a retirar tu consentimiento en cualquier momento.</p>
+<p>En la práctica, el desarrollador no conserva ningún dato personal tuyo ni dispone de medios para identificarte, de modo que no hay información que pueda extraerse, rectificarse o suprimirse a petición. El control es tuyo y directo: puedes retirar el permiso de ubicación o borrar los datos de la app como se indica en los apartados 3 y 6.</p>
+<p>Puedes dirigir cualquier solicitud a <a href="mailto:adrianaceitunodecastro@gmail.com">adrianaceitunodecastro@gmail.com</a>. Si consideras que tus derechos no han sido atendidos, puedes presentar una reclamación ante la <a href="https://www.aepd.es/" rel="noopener">Agencia Española de Protección de Datos</a>.</p>
+
+<h2>11. Cambios en esta política</h2>
+<p>Si el funcionamiento de la app cambia, esta página se actualizará y se modificará la fecha del encabezado. Cuando el cambio afecte de forma significativa al tratamiento de tus datos, se advertirá además en la descripción de la app en Google Play.</p>
+
+<h2>12. Contacto</h2>
+<p>Adrián Aceituno de Castro · <a href="mailto:adrianaceitunodecastro@gmail.com">adrianaceitunodecastro@gmail.com</a></p>
+
+<hr>
+<footer>
+  <p><a href="terminos.html">Términos y condiciones de uso</a></p>
+  <p>Mapa © colaboradores de OpenStreetMap, bajo licencia ODbL · Teselas: OpenFreeMap / OpenMapTiles.<br>
+  Blipmap es un proyecto independiente de aficionado, sin relación con Rockstar Games ni con ninguna otra compañía de videojuegos.</p>
+</footer>
+
+</main>
+</body>
+</html>
